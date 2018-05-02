@@ -5,7 +5,7 @@ import './App.css';
 
 const Ejemplo = props => {
     return (
-      <h1>Container</h1>
+      <h1>Containers</h1>
     );
 }
 class App extends Component {
