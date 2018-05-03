@@ -2,7 +2,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { getUserProfile } from '../../actions/user-actions';
 import Layout from '../../containers/Layout/Layout';
-import Title from '../../components/Title';
+
+
+const Title = (props) => {
+    return (
+      <h1>Preguntas</h1>
+    );
+}
 
 class Home extends React.Component{
   constructor(props) {
@@ -20,10 +26,7 @@ class Home extends React.Component{
 
     return (
       <Layout>
-          <Title
-            title={'Participá del Prode Mundial y pronosticá los resultados.'}
-            subtitle={'Cuanto más aciertes, más puntos ganas.'}
-          />
+          <Title/>
       </Layout>
     )
   }

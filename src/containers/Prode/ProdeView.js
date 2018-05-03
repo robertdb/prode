@@ -4,7 +4,7 @@ import { getUserProfile } from '../../actions/user-actions';
 import Layout from '../../containers/Layout/Layout';
 import Title from '../../components/Title';
 
-class Home extends React.Component{
+class Prode extends React.Component{
   constructor(props) {
     super()
     this.state = {
@@ -20,10 +20,10 @@ class Home extends React.Component{
 
     return (
       <Layout>
-          <Title
-            title={'Participá del Prode Mundial y pronosticá los resultados.'}
-            subtitle={'Cuanto más aciertes, más puntos ganas.'}
-          />
+        <Title
+          title={'Fase de grupos'}
+          subtitle={'Seleccioná quién gana o si empatan.'}
+        />
       </Layout>
     )
   }
@@ -33,4 +33,4 @@ const mapStateToProps = store => ({
 	profile: store.user.profile
 });
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps)(Prode);
