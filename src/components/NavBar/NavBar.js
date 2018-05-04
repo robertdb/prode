@@ -39,6 +39,7 @@ const Button = styled.div`
   margin-right: 15px;
   margin-top: 20px;
   float:right;
+  cursor:pointer;
 `;
 
 const IconLine = styled.div`
