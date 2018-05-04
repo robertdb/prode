@@ -21,7 +21,7 @@ class Home extends React.Component{
     return (
       <Layout>
           <Title
-            title={'Participá del Prode Mundial y pronosticá los resultados.'}
+            title={'Participá del Prode Mundial y pronosticá resultados.'}
             subtitle={'Cuanto más aciertes, más puntos ganas.'}
           />
       </Layout>
